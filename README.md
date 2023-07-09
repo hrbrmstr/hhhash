@@ -34,6 +34,7 @@ The following functions are implemented:
 ## Installation
 
 ``` r
+remotes::install_github("hrbrmstr/hhhash")
 ```
 
 NOTE: To use the ‘remotes’ install options you will need to have the
