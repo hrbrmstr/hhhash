@@ -8,7 +8,7 @@ hrbrpkghelpr::global_opts()
 ```
 
 ```{r badges, results='asis', echo=FALSE, cache=FALSE}
-hrbrpkghelpr::stinking_badges(extra_lines = "[![R](https://github.com/hrbrmstr/hhhash/actions/workflows/r.yml/badge.svg)](https://github.com/hrbrmstr/hhhash/actions/workflows/r.yml)")
+hrbrpkghelpr::stinking_badges()
 ```
 
 ```{r description, results='asis', echo=FALSE, cache=FALSE}
