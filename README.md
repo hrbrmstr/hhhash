@@ -20,7 +20,8 @@ HTTP Headers Hashing
 HTTP Headers Hashing (HHHash) is a technique used to create a
 fingerprint of an HTTP server based on the headers it returns. HHHash
 employs one-way hashing to generate a hash value for the set of header
-keys returned by the server.
+keys returned by the server. See
+<https://www.foo.be/2023/07/HTTP-Headers-Hashing_HHHash> for more info.
 
 ## What’s Inside The Tin
 
@@ -80,10 +81,10 @@ hash_headers(keys)
 | Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
 |:-----|---------:|-----:|----:|-----:|------------:|-----:|---------:|-----:|
 | C    |        2 | 0.14 |  24 | 0.18 |           3 | 0.09 |        1 | 0.01 |
-| R    |        3 | 0.21 |  23 | 0.17 |          14 | 0.41 |       51 | 0.49 |
+| R    |        3 | 0.21 |  23 | 0.17 |          14 | 0.41 |       52 | 0.49 |
 | JSON |        1 | 0.07 |  20 | 0.15 |           0 | 0.00 |        0 | 0.00 |
 | YAML |        1 | 0.07 |   1 | 0.01 |           0 | 0.00 |        0 | 0.00 |
-| SUM  |        7 | 0.50 |  68 | 0.50 |          17 | 0.50 |       52 | 0.50 |
+| SUM  |        7 | 0.50 |  68 | 0.50 |          17 | 0.50 |       53 | 0.50 |
 
 {cloc} 📦 metrics for hhhash
 
