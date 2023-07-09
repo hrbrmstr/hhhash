@@ -39,6 +39,29 @@ packageVersion("hhhash")
 
 ```
 
+
+```{r ex-01}
+build_hash_from_url("https://www.circl.lu/")
+```
+
+```{r ex-02}
+res <- curl::curl_fetch_memory("https://www.circl.lu/", curl::new_handle())
+
+build_hash_from_response(res)
+```
+
+```{r ex-03}
+c(
+  "Date", "Server", "Strict-Transport-Security",
+  "Last-Modified", "ETag", "Accept-Ranges",
+  "Content-Length", "Content-Security-Policy",
+  "X-Content-Type-Options", "X-Frame-Options",
+  "X-XSS-Protection", "Content-Type"
+) -> keys
+
+hash_headers(keys)
+```
+
 ## hhhash Metrics
 
 ```{r cloc, echo=FALSE}

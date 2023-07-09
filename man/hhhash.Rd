@@ -4,15 +4,18 @@
 \name{hhhash}
 \alias{hhhash}
 \alias{hhhash-package}
-\title{...}
+\title{HTTP Headers Hashing}
 \description{
-A good description goes here otherwise CRAN checks fail.
+HTTP Headers Hashing (HHHash) is a technique used to create a
+fingerprint of an HTTP server based on the headers it returns.
+HHHash employs one-way hashing to generate a hash value for the
+set of header keys returned by the server
 }
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://git.rud.is/hrbrmstr/hhhash}
-  \item Report bugs at \url{https://git.rud.is/hrbrmstr/hhhash/issues}
+  \item \url{https://github.com/hrbrmstr/hhhash}
+  \item Report bugs at \url{https://github/hrbrmstr/hhhash/issues}
 }
 
 }

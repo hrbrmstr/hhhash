@@ -1,6 +1,6 @@
 Package: hhhash
 Type: Package
-Title: hhhash Title Goes Here Otherwise CRAN Checks Fail
+Title: HTTP Headers Hashing
 Version: 0.1.0
 Date: 2023-07-09
 Authors@R: c(
@@ -8,14 +8,18 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-5670-2640"))
   )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: A good description goes here otherwise CRAN checks fail.
-URL: https://git.rud.is/hrbrmstr/hhhash
-BugReports: https://git.rud.is/hrbrmstr/hhhash/issues
+Description: HTTP Headers Hashing (HHHash) is a technique used to create a 
+    fingerprint of an HTTP server based on the headers it returns. HHHash 
+		employs one-way hashing to generate a hash value for the set of header
+		keys returned by the server.
+URL: https://github.com/hrbrmstr/hhhash
+BugReports: https://github/hrbrmstr/hhhash/issues
 Encoding: UTF-8
-License: AGPL
+License: MIT + file LICENSE
 Suggests:
     tinytest
 Depends:
     R (>= 4.0.0)
+Imports: curl, digest
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.2.3
