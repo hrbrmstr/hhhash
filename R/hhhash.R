@@ -21,7 +21,7 @@ split_string <- function(x, split = ":") {
 #' hash_headers(keys)
 hash_headers <- function(keys, version = 1L) {
   keys_concat <- paste0(keys, collapse = ":")
-  keys_digest <- digest::digest(keys_concat, algo = "sha256", serialize = FALSE)
+  keys_digest <- sha256(keys_concat)
   sprintf("hhh:%s:%s", version, keys_digest)
 }
 

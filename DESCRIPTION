@@ -1,7 +1,7 @@
 Package: hhhash
 Type: Package
 Title: HTTP Headers Hashing
-Version: 0.1.1
+Version: 0.1.2
 Date: 2023-07-09
 Authors@R: c(
     person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre"), 

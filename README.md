@@ -31,6 +31,8 @@ The following functions are implemented:
   response object
 - `build_hash_from_url`: Build a hash from headers retrieved from a URL
 - `hash_headers`: Build a hash from a vector of HTTP header keys
+- `sha256`: Convience wrapper for digest::digest() with algo = “sha256”
+  and serialize = FALSE
 
 ## Installation
 
@@ -80,11 +82,11 @@ hash_headers(keys)
 
 | Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
 |:-----|---------:|-----:|----:|-----:|------------:|-----:|---------:|-----:|
-| C    |        2 | 0.14 |  24 | 0.18 |           4 | 0.11 |        3 | 0.03 |
-| R    |        3 | 0.21 |  23 | 0.17 |          14 | 0.39 |       52 | 0.47 |
-| JSON |        1 | 0.07 |  20 | 0.15 |           0 | 0.00 |        0 | 0.00 |
-| YAML |        1 | 0.07 |   1 | 0.01 |           0 | 0.00 |        0 | 0.00 |
-| SUM  |        7 | 0.50 |  68 | 0.50 |          18 | 0.50 |       55 | 0.50 |
+| R    |        4 | 0.25 |  26 | 0.18 |          14 | 0.39 |       56 | 0.47 |
+| C    |        2 | 0.12 |  24 | 0.17 |           4 | 0.11 |        3 | 0.03 |
+| JSON |        1 | 0.06 |  20 | 0.14 |           0 | 0.00 |        0 | 0.00 |
+| YAML |        1 | 0.06 |   1 | 0.01 |           0 | 0.00 |        0 | 0.00 |
+| SUM  |        8 | 0.50 |  71 | 0.50 |          18 | 0.50 |       59 | 0.50 |
 
 {cloc} 📦 metrics for hhhash
 

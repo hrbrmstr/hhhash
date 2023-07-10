@@ -3,6 +3,7 @@
 export(build_hash_from_response)
 export(build_hash_from_url)
 export(hash_headers)
+export(sha256)
 import(curl)
 useDynLib(hhhash, .registration = TRUE)
 useDynLib(hhhash,R_split_string)
