@@ -1,11 +1,13 @@
 Package: hhhash
 Type: Package
 Title: HTTP Headers Hashing
-Version: 0.1.0
+Version: 0.1.1
 Date: 2023-07-09
 Authors@R: c(
     person("Bob", "Rudis", email = "bob@rud.is", role = c("aut", "cre"), 
-           comment = c(ORCID = "0000-0001-5670-2640"))
+           comment = c(ORCID = "0000-0001-5670-2640")),
+		person("Jeroen", "Ooms", role = c("ctb"), email = "jeroen@berkeley.edu",
+           comment = c(ORCID = "0000-0002-4035-0289", what = "src/split.c"))
   )
 Maintainer: Bob Rudis <bob@rud.is>
 Description: HTTP Headers Hashing (HHHash) is a technique used to create a 

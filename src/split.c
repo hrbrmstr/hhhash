@@ -1,3 +1,6 @@
+// Shamelessly stolen from Jeroen
+// ref: https://github.com/jeroen/curl/blob/master/src/split.c
+
 #include <Rinternals.h>
 #include <string.h>
 
